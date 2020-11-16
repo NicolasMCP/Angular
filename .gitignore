@@ -40,8 +40,8 @@ npm-debug.log
 yarn-error.log
 testem.log
 typings
-hnr-*/.browserslistrc
-hnr-*/.editorconfig
+.browserslistrc
+.editorconfig
 
 # System Files
 .DS_Store
