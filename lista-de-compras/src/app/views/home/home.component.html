@@ -1,0 +1,8 @@
+<mat-toolbar class="toolbar" color="primary">
+    <mat-toolbar-row>
+      <span><mat-icon> local_grocery_store </mat-icon> Itens a Comprar</span>
+      <span class="toolbar-spacer"></span> 
+      <button mat-raised-button ((click)="novoItem()")><mat-icon>add</mat-icon> Item</button>
+    </mat-toolbar-row>
+</mat-toolbar>
+<spa-compras-list [listaDeItens]="listaItens"></spa-compras-list>

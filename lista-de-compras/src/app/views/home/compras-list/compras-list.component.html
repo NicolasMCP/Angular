@@ -1,0 +1,17 @@
+<mat-tab-group mat-align-tabs="start">
+    <mat-tab label="Comprar">
+        <div *ngFor="let iten of listaDeItens">
+            <p *ngIf="iten.flag == 1">{{ iten.nome }}</p>
+        </div>
+    </mat-tab>
+    <mat-tab label="Comprei">        
+        <div *ngFor="let iten of listaDeItens">
+            <p *ngIf="iten.flag == 2">{{ iten.nome }}</p>
+        </div>
+</mat-tab>
+    <mat-tab label="Desisti">
+        <div *ngFor="let iten of listaDeItens">
+            <p *ngIf="iten.flag == 3">{{ iten.nome }}</p>
+        </div>
+    </mat-tab>
+</mat-tab-group>
