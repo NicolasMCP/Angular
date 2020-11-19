@@ -11,6 +11,8 @@ export class HomeComponent implements OnInit {
 
   public listaItens: itens[];
 
+  public cont: number;
+
   constructor(public dialog: MatDialog) { }
 
   ngOnInit(): void {
@@ -21,12 +23,15 @@ export class HomeComponent implements OnInit {
       { nome: "Chocolate", flag: 2 },
       { nome: "Leite", flag: 1 }
     ];
+    this.cont = 2;
   }
 
   /**
    * name
    */
-  public novoItem(): itens[] {
-    return [{ nome: "Bananas", flag: 1 }]
+  public novoItem() {
+    let novoFlag: number = (++this.cont % 3) + 1;
+    let iten: itens = { nome: "Item" + this.cont, flag: novoFlag };
+    this.listaItens.push(iten);
   }
 }
