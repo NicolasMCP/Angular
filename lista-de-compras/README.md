@@ -11,7 +11,7 @@ Executando o comando `ng serve -o` para um servidor de desenvolvimento. O navega
 
 ## Componentes Angular Material
 
-- [Tabs](https://github.com/NicolasMCP/Angular/tree/main/lista-de-compras | https://v10.material.angular.io/components/tabs/overview)
+- [Tabs](https://v10.material.angular.io/components/tabs/overview)
     - Um mat-tab-group, com 3 mat-tab
         - Comprar
         - Comprei
