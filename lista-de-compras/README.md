@@ -3,6 +3,8 @@
 
 # Lista de Compras
 
+![license1](https://img.shields.io/static/v1?label=License&message=MIT&color=orange)
+
 O projeto (lista-de-compras) foi gerado com  [Angular CLI](https://github.com/angular/angular-cli) versão 10.2.0.
 
 ## Servidor de desenvolvimento
