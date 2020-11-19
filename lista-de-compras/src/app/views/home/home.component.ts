@@ -12,6 +12,7 @@ export class HomeComponent implements OnInit {
   public listaItens: itens[];
 
   public cont: number;
+  public mais_item: number;
 
   constructor(public dialog: MatDialog) { }
 
@@ -24,6 +25,7 @@ export class HomeComponent implements OnInit {
       { nome: "Leite", flag: 1 }
     ];
     this.cont = 2;
+    this.mais_item = 0;
   }
 
   /**
@@ -33,5 +35,6 @@ export class HomeComponent implements OnInit {
     let novoFlag: number = (++this.cont % 3) + 1;
     let iten: itens = { nome: "Item" + this.cont, flag: novoFlag };
     this.listaItens.push(iten);
+    this.mais_item++;
   }
 }

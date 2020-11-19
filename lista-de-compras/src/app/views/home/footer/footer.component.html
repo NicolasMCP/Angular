@@ -1,8 +1,17 @@
 <mat-card class="mat-card" color="primary">
   <mat-card-header>
     <div mat-card-avatar></div>
-    <mat-card-title><a href="https://www.infodata.xyz" target="_blank">www.infodata.xyz</a></mat-card-title>
-    <mat-card-subtitle><a href="mailto: Nicolas Ramos<nicolas.mcp@gmail.com>">Nicolas Ramos</a></mat-card-subtitle>
+    <mat-card-title>
+      <a href="https://www.infodata.xyz" target="_blank">www.infodata.xyz</a>
+    </mat-card-title>
+    <mat-card-subtitle>
+      <a href="mailto: Nicolas Ramos<nicolas.mcp@gmail.com>">Nicolas Ramos</a>
+    </mat-card-subtitle>
+    <span class="card-spacer"></span>
+    <span class="mais-item">
+      + Item 
+      <mat-icon  matBadge="{{ this.mais_item }}" matBadgeColor="accent"> touch_app </mat-icon>
+    </span>
   </mat-card-header>
   <div mat-card-image></div>
 </mat-card>

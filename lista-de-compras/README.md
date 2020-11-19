@@ -44,6 +44,8 @@ Executando o comando `ng serve -o` para um servidor de desenvolvimento. O navega
 
 - Entre o Button (dentro do Toolbar) e a lista de compras e os dados são atualizados nos Tabs
 
+- A lista é inicialmente criada no spa-home e enviada para o spa-compras-list
+
 
 
 <br>
