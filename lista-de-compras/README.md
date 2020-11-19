@@ -11,16 +11,16 @@ Executando o comando `ng serve -o` para um servidor de desenvolvimento. O navega
 
 ## Componentes Angular Material
 
-- Tabs
-    - Um mat-tab-group, com 3 Mat-tab
+- [Tabs](https://v10.material.angular.io/components/tabs/overview)
+    - Um mat-tab-group, com 3 mat-tab
         - Comprar
         - Comprei
         - Desisti
-- Toolbar
+- [Toolbar](https://v10.material.angular.io/components/toolbar/overview)
     - Um mat-toobar usado como header (cabeçalho) e contendo o título da SPA
-- Icon
+- [Icon](https://v10.material.angular.io/components/icon/overview)
     - Um mat-icon usado dentro do header, antes do Título
-- Button
+- [Button](https://v10.material.angular.io/components/button/overview)
     - Um mat-raised-button usado ainda dentro do header, do lado direito
 
 ## Meus componentes
@@ -28,6 +28,10 @@ Executando o comando `ng serve -o` para um servidor de desenvolvimento. O navega
 - home
 - compras-list
 - footer
+
+## Comunicação
+
+
 
 <br>
 <img src="src/assets/tela.png">
