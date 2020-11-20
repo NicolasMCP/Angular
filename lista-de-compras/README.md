@@ -26,7 +26,7 @@ Executando o comando `ng serve -o` para um servidor de desenvolvimento. O navega
 - [Card](https://v10.material.angular.io/components/card/overview)
     - Um mat-card usado como footer (rodapé)
 - [Badge](https://v10.material.angular.io/components/badge/overview)
-    - Um mat-
+    - Um matBadge contido em outro componente (no caso em um ícone)
 
 
 ## Meus componentes
