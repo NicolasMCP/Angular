@@ -1,7 +1,3 @@
-# PROJETO EM MUDANÇAS ATÉ SEXTA-FEIRA... 
-# POR FAVOR AGUARDE...!!
-
-
 # Lista de Compras
 
 ![license1](https://img.shields.io/static/v1?label=License&message=MIT&color=orange)
