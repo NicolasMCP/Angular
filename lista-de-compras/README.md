@@ -24,11 +24,13 @@ Executando o comando `ng serve -o` para um servidor de desenvolvimento. O navega
 - [Toolbar](https://v10.material.angular.io/components/toolbar/overview)
     - Um mat-toobar usado como header (cabeçalho) e contendo o título da SPA
 - [Icon](https://v10.material.angular.io/components/icon/overview)
-    - Um mat-icon usado dentro do header, antes do título
+    - Dois mat-icon, um usado no header, antes do título, e outro no footer
 - [Button](https://v10.material.angular.io/components/button/overview)
     - Um mat-raised-button usado ainda dentro do header, do lado direito
 - [Card](https://v10.material.angular.io/components/card/overview)
     - Um mat-card usado como footer (rodapé)
+- [Badge](https://v10.material.angular.io/components/badge/overview)
+    - Um mat-
 
 
 ## Meus componentes
@@ -46,7 +48,13 @@ Executando o comando `ng serve -o` para um servidor de desenvolvimento. O navega
 
 - A lista é inicialmente criada no spa-home e enviada para o spa-compras-list
 
+- Entre o Button e o Gadge indicando o número de cliques no botão '+ Item'
+
 
 
 <br>
 <img src="src/assets/tela.png">
+<br>
+<img src="src/assets/tela2.png">
+<br>
+<img src="src/assets/tela3.png">
