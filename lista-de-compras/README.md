@@ -47,6 +47,10 @@ Executando o comando `ng serve -o` para um servidor de desenvolvimento. O navega
 - Entre o Button e o Gadge indicando o número de cliques no botão '+ Item'
 
 
+## Apresentação em vídeo
+
+[Lista de Compras em Angular](https://youtu.be/qNM7ILgweNQ)
+
 
 <br>
 <img src="src/assets/tela.png">
